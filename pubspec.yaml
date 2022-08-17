@@ -1,0 +1,30 @@
+name: passbase_flutter_demo
+description: Passbase demo application
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  passbase_flutter: ^2.13.3
+  mobile_scanner: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/shield-icon.png
+  fonts:
+    - family: Exo
+      fonts:
+        - asset: lib/assets/Exo-Regular.ttf
+        - asset: lib/assets/Exo-SemiBold.ttf
